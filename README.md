@@ -19,14 +19,16 @@ Metrics include:
 
 MergeSort:
 T(n) = 2T(n/2) + O(n) → O(n log n) 
-QuickSort:
-T(n) = T(k) + T(n−k−1) + O(n).
+
+QuickSort: T(n) = T(k) + T(n−k−1) + O(n).
+
 Average case: O(n log n)
+
 Worst case: O(n²)
-Deterministic Select:
-T(n) = T(7n/10) + O(n) → O(n).
-Closest Pair:
-T(n) = 2T(n/2) + O(n) → O(n log n).
+
+Deterministic Select: T(n) = T(7n/10) + O(n) → O(n).
+
+Closest Pair: T(n) = 2T(n/2) + O(n) → O(n log n).
 
 # Conclusion
 
