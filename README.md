@@ -1,6 +1,6 @@
 # Assignment 1
 
-## 📌 Overview
+##  Overview
 This project implements classic divide-and-conquer algorithms with safe recursion patterns and metrics collection.
 
 Algorithms implemented:
@@ -15,7 +15,7 @@ Metrics include:
 - maximum recursion depth,
 - execution time.
 
-#Recurrence Analysis
+# Recurrence Analysis
 
 MergeSort:
 T(n) = 2T(n/2) + O(n) → O(n log n) 
@@ -28,7 +28,7 @@ T(n) = T(7n/10) + O(n) → O(n).
 Closest Pair:
 T(n) = 2T(n/2) + O(n) → O(n log n).
 
-#Conclusion
+# Conclusion
 
 Experimental measurements confirm the theoretical asymptotics.
 Observed recursion depths match expected O(log n).
